@@ -15,12 +15,10 @@ seaborn                   0.13.2
 torch                     2.8.0+cu129
 ```
 ## Project Structure
-├── preprocess.py    # Single-cell data preprocessing
-
-├── network.py       # Deep network architecture of scTRACE
-
-├── Metrics.py       # Evaluation metrics of clustering
-
-├── sc.py            # Main entry of scTRACE model
-
-├── demo.py          # Reproducible demo script
+```
+├── preprocess.py   # Single-cell data preprocessing
+├── network.py      # Deep network architecture of scTRACE
+├── Metrics.py      # Evaluation metrics of clustering
+├── sc.py           # Main entry of scTRACE model
+└── demo.py         # Reproducible demo script
+```
