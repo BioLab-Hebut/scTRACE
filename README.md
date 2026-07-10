@@ -2,6 +2,8 @@
 
 scTRACE is a single-cell rare cell identification framework that combines deep representation learning, cluster refinement, and anomaly-based rare cluster detection.
 
+![scTRACE graphical abstract](Graphical%20Abstract%20Image.jpg)
+
 ## Files
 
 - `demo.py`: end-to-end example for training and rare cell detection.
@@ -14,7 +16,6 @@ scTRACE is a single-cell rare cell identification framework that combines deep r
 ## Requirements
 
 Install the packages listed in `requirements.txt`. CUDA is required for the default demo configuration.
-
 ## Data Format
 
 The demo expects the following files under the configured data directory:
