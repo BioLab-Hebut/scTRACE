@@ -8,7 +8,7 @@ scTRACE is a single-cell rare cell identification framework that combines deep r
 - `trace_model.py`: neural network modules, including the convolutional autoencoder and attention blocks.
 - `trace_core.py`: clustering training, cluster refinement, and rare cell detection logic.
 - `metrics.py`: clustering metric utilities.
-- `preprocess.py`: preprocessing for CSV, TXT, and 10x MTX inputs.
+- `preprocess_h5.py`: preprocessing for .h5 inputs.
 
 
 ## Requirements
